@@ -126,6 +126,31 @@ function Commands() {
                 </table>
             </Accordion>
 
+            <Accordion title="bat">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Command</th>
+                        <th>Purpose</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>bat --pager=[pager program]</td>
+                        <td>Set pager program (less is recommended)</td>
+                    </tr>
+                    <tr>
+                        <td>bat -l [language]</td>
+                        <td>Set language explicitly for syntax highlighting</td>
+                    </tr>
+                    <tr>
+                        <td>bat -L</td>
+                        <td>List all supported languages</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </Accordion>
+
             <Accordion title="Some Cheat Commands">
                 <table>
                     <thead>
