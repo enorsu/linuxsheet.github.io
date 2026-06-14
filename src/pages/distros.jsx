@@ -24,7 +24,7 @@ function Distros() {
             If you want an easy setup and don't mess with problems, go with Mint.
             <h2>7. Void Linux</h2>
             If you want simplicity, check Void Linux. It's really simple and it doesn't
-            has systemd.
+            have systemd.
         </div>
     )
 }
