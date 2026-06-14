@@ -1,14 +1,34 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Navbar() {
     return (
         <nav className="site-map">
-            <Link to="/">Home</Link>
-            <Link to="/commands">Commands</Link>
-            <Link to="/distros">Distros</Link>
-            <Link to="/filesystem">Filesystem</Link>
+            <NavLink
+                to="/"
+                className={({ isActive }) => isActive ? "active-link" : ""}
+            >
+                Home
+            </NavLink>
+            <NavLink
+                to="/commands"
+                className={({ isActive }) => isActive ? "active-link" : ""}
+            >
+                Commands
+            </NavLink>
+            <NavLink
+                to="/distros"
+                className={({ isActive }) => isActive ? "active-link" : ""}
+            >
+                Distros
+            </NavLink>
+            <NavLink
+                to="/filesystem"
+                className={({ isActive }) => isActive ? "active-link" : ""}
+            >
+                Filesystem
+            </NavLink>
         </nav>
     );
 }
 
-export default Navbar
+export default Navbar;
